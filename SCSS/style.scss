@@ -52,7 +52,6 @@
 }
 
 .aside {
-  height: 794px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -96,7 +95,6 @@
   &__bottom {
     display: flex;
     justify-content: space-between;
-    // flex-wrap: wrap;
     margin-top: -3px;
     & .item {
       height: 200px;

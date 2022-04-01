@@ -1,0 +1,161 @@
+@media (max-width: 990px) {
+
+  //MAIN
+  .content {
+    &__center {
+      // justify-content: space-around;
+      justify-content: space-between;
+      & .item {
+        width: 18%;
+        height: 110px;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+
+  // MAIN
+  .content {
+    &__center {
+      & .item {
+        height: 90px;
+      }
+    }
+  }
+
+  // FOOTER
+  .footer {
+    &__column {
+      & .item {
+        width: 260px;
+      }
+    }
+  }
+}
+
+@media (max-width: 720px) {
+
+  .item {
+    margin: 5px;
+  }
+
+  // HEADER
+  .header {
+    &__item {
+      height: 70px;
+    }
+  }
+
+  // MAIN
+  .content {
+    &__center {
+      & .item {
+        width: calc(50% - 10px);
+        height: 75px;
+      }
+    }
+  }
+}
+
+@media (max-width: 660px) {
+
+    // MAIN
+    .aside {
+      & .item {
+        width: 160px;
+      }
+    }
+
+    // FOOTER
+  .footer {
+    & .item {
+      height: 130px;
+    }
+    &__column {
+      & .item {
+        height: 60px;
+        width: 230px;
+      }
+    }
+  }
+}
+
+@media (max-width: 520px) {
+
+  // HEADER
+  .header {
+    &__item {
+      height: 55px;
+    }
+  }
+
+  // MAIN 
+  .main {
+    &__inner {
+      flex-direction: column;
+    }
+  }
+
+  .aside {
+  height: auto;
+  flex-direction: row;
+  padding-right: 2px;
+    & .item {
+      height: 100px;
+    }
+
+    &__item-1 {
+      flex-basis: 70%;
+    }
+    &__item-2 {
+      flex-basis: 30%;
+    }
+  }
+
+  //FOOTER
+  .footer {
+    &__inner {
+      flex-wrap: wrap;
+      & > .item {
+        width: 100%;
+        height: 65px;
+      }
+    }
+
+    &__column {
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-between;
+      & .item {
+        width: 50%;
+      }
+    }
+  }
+}
+
+@media (max-width: 460px) {
+
+  // HEADER
+  .header {
+    &__inner {
+    flex-wrap: wrap;
+    }
+
+    &__item {
+      height: 40px;
+      &-1 {
+        max-width: 100%;
+        flex-basis: 100%;
+      }
+      &-2 {
+        max-width: 100%;
+        flex-basis: 100%;
+      }
+      &-3 {
+        max-width: 100%;
+        flex-basis: 100%;
+      }
+    }
+  }
+}
