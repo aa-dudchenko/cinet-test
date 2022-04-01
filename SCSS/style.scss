@@ -4,6 +4,7 @@
 
 .item {
   margin: 11px;
+  background-position: center;
 }
 
 .line {
@@ -29,6 +30,7 @@
     &-1 {
       flex-basis: 123px;
       max-width: 123px;
+      background-image: url('../Images/1.jpg');
     }
     &-2 {
       flex-basis: 280px;
@@ -65,6 +67,7 @@
   }
   &__item-2 {
     flex-basis: 132px;
+    background-image: url('../Images/7.jpg');
   }
 
 }
@@ -89,6 +92,28 @@
     & .item {
       width: 133.4px;
       height: 150px;
+    }
+
+    &-item-1 {
+      background-image: url('../Images/6.1.jpg');
+    }
+    &-item-2 {
+      background-image: url('../Images/6.2.jpg');
+    }
+    &-item-3 {
+      background-image: url('../Images/6.3.jpg');
+    }
+    &-item-4 {
+      background-image: url('../Images/6.4.jpg');
+    }
+    &-item-5 {
+      background-image: url('../Images/6.5.jpg');
+    }
+    &-item-6 {
+      background-image: url('../Images/6.6.jpg');
+    }
+    &-item-7 {
+      background-image: url('../Images/6.7.jpg');
     }
   }
 
@@ -124,6 +149,9 @@
       & .item {
         height: 75px;
         width: 308px;
+      }
+      & .item:nth-child(2) {
+        background-image: url('../Images/13.jpg');
       }
     }
 }
