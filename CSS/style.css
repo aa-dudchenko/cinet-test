@@ -151,6 +151,7 @@ body {
 .content__center .item {
   width: 133.4px;
   height: 150px;
+  cursor: pointer;
 }
 .content__center-item-1 {
   background-image: url("../Images/6.1.jpg");
@@ -234,13 +235,11 @@ body {
   -webkit-transition: all 1s;
   transition: all 1s;
 }
-
 .modal__wrapper {
   position: relative;
   width: 100vw;
   height: 100vh;
 }
-
 .modal__content {
   position: absolute;
   top: 50%;
@@ -308,6 +307,21 @@ body {
   .footer__column .item {
     width: 260px;
   }
+
+  .modal__content {
+    width: 60%;
+    height: 430px;
+  }
+
+  .item-image {
+    width: 76%;
+    height: 90%;
+  }
+
+  .item-number {
+    font-size: 26px;
+    left: 20px;
+  }
 }
 @media (max-width: 720px) {
   .item {
@@ -334,6 +348,20 @@ body {
   .footer__column .item {
     height: 60px;
     width: 230px;
+  }
+
+  .modal__content {
+    height: 380px;
+  }
+
+  .modal .close {
+    font-size: 28px;
+    right: 10px;
+  }
+
+  .item-number {
+    left: 20px;
+    font-size: 24px;
   }
 }
 @media (max-width: 520px) {
@@ -389,6 +417,10 @@ body {
   .footer__column .item {
     width: 50%;
   }
+
+  .item-number {
+    left: 10px;
+  }
 }
 @media (max-width: 460px) {
   .header__inner {
@@ -412,5 +444,10 @@ body {
     max-width: 100%;
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
+  }
+
+  .modal__content {
+    width: 75%;
+    height: 340px;
   }
 }
